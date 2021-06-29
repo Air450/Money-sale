@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MoneySale",
+    "slug": "MoneySale",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2d2d2d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.air.cw"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
